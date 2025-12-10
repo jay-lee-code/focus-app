@@ -1,0 +1,21 @@
+# Rust
+/backend/target/
+/backend/**/*.rs.bk
+/backend/Cargo.lock
+# We usually commit Cargo.lock for binary projects, but for now I'll leave it in.
+# Actually, standard practice for apps is to commit Cargo.lock.
+# I will NOT ignore Cargo.lock.
+
+# Node
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.env
+/frontend/.env.local
+/frontend/.env.*.local
+
+# General
+.DS_Store
+*.log
+.env
+*.sqlite
+*.sqlite-journal
